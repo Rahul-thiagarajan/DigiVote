@@ -1,0 +1,51 @@
+.login-pg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(4, 6, 18, 0.347)), url("../images/loginBackground.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  background-position: center;
+  height:100%;
+}
+.box-ele{
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgb(114, 97, 97);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:40px;
+  align-items: center;
+  width:400px;
+  height:450px;
+  border-radius: 50px;
+}
+.but-sub{
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: 0px ;
+  border-left: 0px;
+  border-right: 0px;
+  backdrop-filter: blur(25px);
+  width: fit-content;
+}
+.but-sub:hover{
+  font-size: 19px;
+  transition: 1.5s;
+}
+.but-inp{
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: 0px ;
+  border-left: 0px;
+  border-right: 0px;
+  backdrop-filter: blur(25px);
+  width: fit-content;
+  outline: none; /* Remove the default focus outline */
+  box-shadow: none; /* Remove any default box shadow */
+  caret-color: black;
+}
+.but-inp:hover{
+  font-size: 19 px;
+  transition: .5s;
+}
